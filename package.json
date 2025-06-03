@@ -1,0 +1,16 @@
+{
+  "name": "arzola-scaps-bot",
+  "version": "1.0.0",
+  "description": "Automation bot for BigBossCaps to Shopify",
+  "main": "bot/bot-bigbosscaps.js",
+  "scripts": {
+    "start": "node bot/bot-bigbosscaps.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.1.1"
+  }
+}
